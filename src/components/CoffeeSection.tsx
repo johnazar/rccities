@@ -86,7 +86,7 @@ export const CoffeeSection: React.FC<CoffeeSectionProps> = ({ onOpenFullMenu }) 
             <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-[#171920] group">
               <div className="relative h-80 sm:h-96 w-full overflow-hidden">
                 <img
-                  src="/src/assets/images/rcc_cafe_interior_lifestyle_1790579379113.jpg"
+                  src="/images/rcc_cafe_interior_lifestyle_1790579379113.jpg"
                   alt="Specialty coffee and relaxed lounge atmosphere at RC Cities Dubai"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"

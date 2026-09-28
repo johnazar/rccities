@@ -60,7 +60,7 @@ export const CorporateSection: React.FC<CorporateSectionProps> = ({ onOpenInquir
         <div className="relative rounded-2xl overflow-hidden border border-white/10 mb-16 shadow-2xl bg-[#16181E] group">
           <div className="h-64 sm:h-96 w-full relative overflow-hidden">
             <img
-              src="/src/assets/images/rcc_corporate_team_event_1790579391246.jpg"
+              src="/images/rcc_corporate_team_event_1790579391246.jpg"
               alt="Corporate team-building event and social gathering at RC Cities Dubai"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               loading="lazy"

@@ -81,7 +81,7 @@ export const ConceptSection: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden border border-white/15 shadow-2xl shadow-black/80 bg-[#16181D] group">
               <img
-                src="/src/assets/images/rcc_excavator_action_1790579366601.jpg"
+                src="/images/rcc_excavator_action_1790579366601.jpg"
                 alt="Precision 1:14 scale remote controlled hydraulic excavator working in indoor construction arena"
                 className="w-full h-[360px] sm:h-[460px] object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
