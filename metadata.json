@@ -1,0 +1,6 @@
+{
+  "name": "RC Cities Dubai | Coffee Meets Thrill",
+  "description": "Dubai's premier experiential cafe combining specialty craft coffee with remote-controlled scale construction machinery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
