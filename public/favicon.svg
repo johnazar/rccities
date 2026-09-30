@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rcc-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="rcc-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="rcc-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2028" />
+      <stop offset="100%" stop-color="#0E1015" />
+    </linearGradient>
+    <filter id="rcc-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#F59E0B" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Background tile for high contrast favicon visibility in light & dark browser tabs -->
+  <rect width="120" height="120" rx="26" fill="url(#rcc-dark)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="3" />
+
+  <!-- Subtle Blueprint grid ticks in background -->
+  <path d="M 60 12 L 60 22 M 60 98 L 60 108 M 12 60 L 22 60 M 98 60 L 108 60" stroke="#F59E0B" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Excavator Hydraulic Boom & Arm extending across top -->
+  <g filter="url(#rcc-glow)">
+    <!-- Main Hydraulic Boom -->
+    <path d="M 38 68 L 52 34 L 76 22 L 96 36" fill="none" stroke="url(#rcc-gold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Boom Truss Reinforcement -->
+    <path d="M 43 56 L 68 28" fill="none" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Hydraulic Cylinder Ram -->
+    <path d="M 48 54 L 62 38" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Heavy Excavator Toothed Bucket -->
+    <path d="M 96 36 L 104 46 L 98 56 L 86 52 Z" fill="url(#rcc-orange)" stroke="#FFFFFF" stroke-width="1" />
+    <!-- Bucket Teeth -->
+    <polygon points="104,46 108,49 105,51" fill="#FFFFFF" />
+    <polygon points="102,51 106,54 103,56" fill="#FFFFFF" />
+    <polygon points="98,56 101,60 97,61" fill="#FFFFFF" />
+
+    <!-- Articulation Pivot Pins -->
+    <circle cx="38" cy="68" r="4.5" fill="#FFFFFF" stroke="#0E1015" stroke-width="1.5" />
+    <circle cx="52" cy="34" r="3.5" fill="#FFFFFF" stroke="#0E1015" stroke-width="1.5" />
+    <circle cx="76" cy="22" r="3" fill="#FFFFFF" stroke="#0E1015" stroke-width="1.5" />
+    <circle cx="96" cy="36" r="3.5" fill="#FFFFFF" stroke="#0E1015" stroke-width="1.5" />
+  </g>
+
+  <!-- RC Pistol Transmitter Grip & Antenna / "R" Stem -->
+  <g>
+    <!-- Transmitter Antenna -->
+    <line x1="38" y1="68" x2="38" y2="40" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="38" cy="38" r="2" fill="#F59E0B" />
+    
+    <!-- Remote Trigger Loop & Grip Body -->
+    <path d="M 38 68 C 30 68 24 73 24 80 C 24 84 27 88 32 90 L 35 90 L 38 68 Z" fill="url(#rcc-gold)" />
+    <!-- Trigger Guard Arc -->
+    <path d="M 34 76 C 30 76 28 80 30 84 C 32 87 36 87 37 83" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Heavy Crawler Track Unit at Base -->
+  <g>
+    <!-- Outer Rubber / Metal Track Loop -->
+    <rect x="22" y="90" width="76" height="18" rx="9" fill="#181A22" stroke="url(#rcc-gold)" stroke-width="3" />
+    
+    <!-- Drive Sprockets / Bogie Road Wheels -->
+    <circle cx="33" cy="99" r="5" fill="url(#rcc-orange)" />
+    <circle cx="33" cy="99" r="2" fill="#FFFFFF" />
+
+    <circle cx="48" cy="99" r="4.5" fill="url(#rcc-gold)" />
+    <circle cx="48" cy="99" r="1.8" fill="#181A22" />
+
+    <circle cx="63" cy="99" r="4.5" fill="url(#rcc-gold)" />
+    <circle cx="63" cy="99" r="1.8" fill="#181A22" />
+
+    <circle cx="78" cy="99" r="4.5" fill="url(#rcc-gold)" />
+    <circle cx="78" cy="99" r="1.8" fill="#181A22" />
+
+    <circle cx="89" cy="99" r="5" fill="url(#rcc-orange)" />
+    <circle cx="89" cy="99" r="2" fill="#FFFFFF" />
+
+    <!-- Track Tread Grousers (teeth along top and bottom) -->
+    <line x1="33" y1="88" x2="33" y2="90" stroke="#F59E0B" stroke-width="2" />
+    <line x1="48" y1="88" x2="48" y2="90" stroke="#F59E0B" stroke-width="2" />
+    <line x1="63" y1="88" x2="63" y2="90" stroke="#F59E0B" stroke-width="2" />
+    <line x1="78" y1="88" x2="78" y2="90" stroke="#F59E0B" stroke-width="2" />
+    <line x1="33" y1="108" x2="33" y2="110" stroke="#F59E0B" stroke-width="2" />
+    <line x1="48" y1="108" x2="48" y2="110" stroke="#F59E0B" stroke-width="2" />
+    <line x1="63" y1="108" x2="63" y2="110" stroke="#F59E0B" stroke-width="2" />
+    <line x1="78" y1="108" x2="78" y2="110" stroke="#F59E0B" stroke-width="2" />
+  </g>
+
+  <!-- RC Cities Dual "CC" Monogram Accent in Center -->
+  <g fill="none" stroke="url(#rcc-gold)" stroke-width="4.5" stroke-linecap="round">
+    <!-- First 'C' -->
+    <path d="M 64 64 C 54 64 48 70 48 78 C 48 86 54 90 64 90" />
+    <!-- Second 'C' -->
+    <path d="M 82 64 C 72 64 66 70 66 78 C 66 86 72 90 82 90" stroke="url(#rcc-orange)" />
+  </g>
+</svg>

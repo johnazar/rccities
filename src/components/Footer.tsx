@@ -1,6 +1,7 @@
 import React from 'react';
 import { siteConfig } from '../data/siteConfig';
 import { ArrowUpRight, Instagram, MessageCircle } from 'lucide-react';
+import { Logo } from './Logo';
 
 interface FooterProps {
   onOpenBooking: () => void;
@@ -26,16 +27,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenMenu }) => 
           
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-[#181B22] border border-[#F59E0B]/40 flex items-center justify-center">
-                <div className="w-3.5 h-3.5 border-2 border-[#F59E0B] rounded-sm transform rotate-12 flex items-center justify-center">
-                  <div className="w-1 h-1 bg-[#F59E0B] rounded-full" />
-                </div>
-              </div>
-              <span className="font-display font-black text-2xl text-white tracking-tight">
-                {siteConfig.businessName}
-              </span>
-            </div>
+            <Logo size="lg" />
 
             <p className="font-display font-medium text-base text-[#F59E0B]">
               {siteConfig.mainTagline}

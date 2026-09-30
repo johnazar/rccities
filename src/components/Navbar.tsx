@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight, MessageCircle } from 'lucide-react';
 import { siteConfig } from '../data/siteConfig';
+import { Logo } from './Logo';
 
 interface NavbarProps {
   onOpenBooking: () => void;
@@ -49,22 +50,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenMenu }) => 
             {/* Zone 1: Single element brand wordmark */}
             <a
               href="#"
-              className="group flex items-center gap-3 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F59E0B]"
+              className="group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F59E0B] rounded-lg"
+              aria-label="RC Cities Dubai Home"
             >
-              <div className="relative flex items-center justify-center w-10 h-10 rounded-lg bg-[#1B1E24] border border-[#F59E0B]/30 group-hover:border-[#F59E0B] transition-colors overflow-hidden">
-                {/* Stylized RC gear and track motif */}
-                <div className="w-5 h-5 border-2 border-[#F59E0B] rounded-sm transform rotate-12 flex items-center justify-center">
-                  <div className="w-1.5 h-1.5 bg-[#F59E0B] rounded-full" />
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-display font-extrabold text-xl sm:text-2xl tracking-tight text-white group-hover:text-[#F59E0B] transition-colors leading-none">
-                  RC CITIES
-                </span>
-                <span className="font-mono-tech text-[10px] tracking-widest text-[#C2A683] uppercase">
-                  DUBAI
-                </span>
-              </div>
+              <Logo size="md" />
             </a>
 
             {/* Zone 2: 4-6 Nav Links (Single-line, quiet typography) */}
@@ -137,12 +126,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenMenu }) => 
           <div className="fixed inset-y-0 right-0 w-4/5 max-w-sm bg-[#14161B] border-l border-white/10 p-6 flex flex-col justify-between overflow-y-auto">
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-white/10">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded bg-[#1B1E24] border border-[#F59E0B]/40 flex items-center justify-center">
-                    <div className="w-3 h-3 bg-[#F59E0B] rounded-sm transform rotate-12" />
-                  </div>
-                  <span className="font-display font-bold text-lg text-white">RC CITIES</span>
-                </div>
+                <Logo size="sm" />
                 <button
                   onClick={() => setMobileMenuOpen(false)}
                   className="p-2 text-neutral-400 hover:text-white"
