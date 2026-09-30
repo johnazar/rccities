@@ -8,7 +8,7 @@ export const AtmosphereSection: React.FC = () => {
       {/* Full-width Cinematic Atmosphere Image with Parallax-feel Scrim */}
       <div className="absolute inset-0 z-0 opacity-40">
         <img
-          src="/src/assets/images/rcc_cafe_interior_lifestyle_1790579379113.jpg"
+          src="/images/rcc_cafe.jpg"
           alt="Atmospheric warm interior of RC Cities Dubai lounge and cafe"
           className="w-full h-full object-cover"
           loading="lazy"

@@ -12,7 +12,7 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({ onOpenBooking 
       {/* Background Image with Cinematic High Contrast & Warm Glow */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/rcc_hero_construction_cafe_1790579355983.jpg"
+          src="/images/rcc_hero.jpg"
           alt="Remote Control Cities Dubai construction terrain and coffee bar"
           className="w-full h-full object-cover opacity-30 scale-105"
           loading="lazy"
