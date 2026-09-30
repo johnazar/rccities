@@ -95,7 +95,7 @@ export const fleetMachines: FleetMachine[] = [
     description: 'The heavyweight backbone of our construction arena. Features all-wheel 6x6 drive, heavy dump bed with dual hydraulic rams, and working beacon lights.',
     features: ['Real sand payload capacity', 'Proportional steering pivot', 'LED work lights & sound engine', 'Dual hydraulic lift'],
     difficulty: 'Beginner',
-    image: '/src/assets/images/rcc_fleet_lineup_studio_1790579402164.jpg',
+    image: '/images/rcc_fleet.jpg',
   },
   {
     id: 'heavy-crawler-excavator',
@@ -106,7 +106,7 @@ export const fleetMachines: FleetMachine[] = [
     description: 'Precision engineering at its best. Multi-valve hydraulic pump system delivers real digging power to scoop and load heavy sand piles into haulers.',
     features: ['360° infinite turret rotation', 'Steel toothed bucket', 'Individual track crawler control', 'Authentic mechanical sounds'],
     difficulty: 'Intermediate',
-    image: '/src/assets/images/rcc_excavator_action_1790579366601.jpg',
+    image: '/images/rcc_excavator.jpg',
   },
   {
     id: 'track-bulldozer',
@@ -117,7 +117,7 @@ export const fleetMachines: FleetMachine[] = [
     description: 'Move tons of scaled earth with authority. Equipped with an articulated front angle blade and rear multi-shank ripper for breaking packed substrate.',
     features: ['Heavy alloy push blade', 'Rear hydraulic ground ripper', 'High traction metal grouser tracks', 'Desert earth capability'],
     difficulty: 'Intermediate',
-    image: '/src/assets/images/rcc_fleet_lineup_studio_1790579402164.jpg',
+    image: '/images/rcc_fleet.jpg',
   },
   {
     id: 'heavy-wheel-loader',
@@ -128,7 +128,7 @@ export const fleetMachines: FleetMachine[] = [
     description: 'Fast, agile, and incredibly satisfying to operate. Pivot-steer mechanism paired with deep bucket scooping for rapid material handling.',
     features: ['High-capacity loading scoop', 'Center pivot hydraulic articulation', 'Heavy tread off-road tyres', 'Proportional remote response'],
     difficulty: 'Beginner',
-    image: '/src/assets/images/rcc_hero_construction_cafe_1790579355983.jpg',
+    image: '/images/rcc_hero.jpg',
   },
 ];
 

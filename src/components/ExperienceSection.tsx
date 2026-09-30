@@ -16,7 +16,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenBook
       icon: Gamepad2,
       tag: 'CONTROL',
       accent: 'border-[#F59E0B]/30 hover:border-[#F59E0B]',
-      image: '/src/assets/images/rcc_excavator_action_1790579366601.jpg',
+      image: '/images/rcc_excavator.jpg',
     },
     {
       step: '02',
@@ -26,7 +26,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenBook
       icon: Hammer,
       tag: 'TERRAIN',
       accent: 'border-[#C2A683]/30 hover:border-[#C2A683]',
-      image: '/src/assets/images/rcc_hero_construction_cafe_1790579355983.jpg',
+      image: '/images/rcc_hero.jpg',
     },
     {
       step: '03',
@@ -36,7 +36,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenBook
       icon: Coffee,
       tag: 'SPECIALTY',
       accent: 'border-[#E67E22]/30 hover:border-[#E67E22]',
-      image: '/src/assets/images/rcc_cafe_interior_lifestyle_1790579379113.jpg',
+      image: '/images/rcc_cafe.jpg',
     },
     {
       step: '04',
@@ -46,7 +46,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenBook
       icon: Users,
       tag: 'COMMUNITY',
       accent: 'border-white/20 hover:border-white/40',
-      image: '/src/assets/images/rcc_corporate_team_event_1790579391246.jpg',
+      image: '/images/rcc_corporate.jpg',
     },
   ];
 

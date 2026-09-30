@@ -19,7 +19,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
       {/* Background Image with Cinematic Measured Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/rcc_hero_construction_cafe_1790579355983.jpg"
+          src="/images/rcc_hero.jpg"
           alt="RC Cities Dubai - Remote-Controlled Construction Machines and Specialty Coffee Lounge"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:animate-pulse-subtle"
           loading="eager"
